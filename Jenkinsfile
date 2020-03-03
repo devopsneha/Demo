@@ -1,14 +1,3 @@
-pipeline {
-  agent {
-  
-  stages {
-  
-  stage{
-  
-  steps { 
-        sh "hostname"   
-      }
-  }
-  }
-  }
-  }
+node{
+    sh "hostname"
+	}
